@@ -1,0 +1,203 @@
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="mid.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+<script>
+    function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+
+</head>
+<body>
+  <div class="main">
+    <div class="bar">
+      <div class="left">
+       <a class="h" href="Midterm.html"><div class="home">Home</div></a>
+      <a class="h" href="catalog.html"><div class="home">Catalog</div></a>
+      <a class="h" href="help.html"><div class="home">Help</div></a>
+        </div>
+      <div class="text-info" id="book">
+        <img src="https://image.flaticon.com/icons/png/512/90/90411.png" width="45px" height="45px">
+          Booktown
+      </div>
+      <div class="right">
+        
+        <a href="" name="corz"><img id="corz" src="https://i.pinimg.com/originals/4f/d9/1c/4fd91cd936769ab12c551a00de654228.jpg"></a>
+          <div class="dropdown">
+                        <img  id="nick" onclick="myFunction()" class="dropbtn" src="https://interlink.biz/wp-content/themes/interlink/img/avatar_1.png">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Register</a>
+                            <a href="#">Log in</a>
+                           
+                        </div>
+                </div>
+      </div>
+    </div>
+
+    <div class="fon1">
+      <div class="text">
+                <div class="input-group mb-3">
+                    <input type="text" class="form" placeholder="Search any books" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                   <!-- <div class="input-group-append">-->
+                        <button class="btn btn-info" id="bas">Search</button>
+                   <!-- </div> -->
+                </div>
+        </div>
+            <div class="quote">“A reader lives a thousand lives before he dies. The man who never reads lives only one.”<div> — George R. R. Martin</div></div>
+            <div class="icons">
+              <div>
+                      <a class="inst" href="https://www.instagram.com/?hl=ru"><img src="https://cdn.icon-icons.com/icons2/2201/PNG/512/instagram_ig_logo_icon_134013.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="fac" href="https://ru-ru.facebook.com/"><img src="https://sitkar.net/wp-content/uploads/2020/04/pngtree-facebook-icon-facebook-logo-fb_3560489.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="g" href="https://www.google.com/intl/ru/gmail/about/"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" class="insta"></a>
+                </div>
+                    </div>
+<div class="content1">
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/41shZGS-G+L.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Thinking, Fast and Slow</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Daniel Kahneman</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$6.00</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Major New York Times bestsellerWinner of the National Academy of Sciences Best Book Award in 2012Selected by the New York Times Book Review as one of the ten best books of 2011A Globe and Mail Best Books of the Year 2011 TitleOne of The Economist's 2011 Books of the Year One of The Wall Street Journal's Best Nonfiction Books of the Year 20112013 Presidential Medal of Freedom RecipientKahneman's work...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/41y1sBiezmL._SL500_.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Psychology of Money</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Morgan Housel</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$4.89</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people. Money―investing, personal finance, and business decisions―is typically taught as a math-based field, where data and formulas tell us exactly what to do...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/41h-jEiunQL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Mastermind: How to Think Like Sherlock Holmes</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Maria Konnikova</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$6.56</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>The New York Times bestselling guide to thinking like literature's greatest detective. "Steven Pinker meets Sir Arthur Conan Doyle" (Boston Globe), by the author of The Confidence Game.No fictional character is more renowned for his powers of thought and observation than Sherlock Holmes...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/418ThFfykGL._SY346_.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Defining Decade: Why Your Twenties Matter And How to Make the Most of Them Now </div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Meg Jay</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$4.00g</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>The Defining Decade has changed the way millions of twentysomethings think about their twenties—and themselves. Revised and reissued for a new generation, let it change how you think about you and yours... </div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51hV5vGr4AL._SX326_BO1,204,203,200_.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The 7 Habits of Highly Effective People</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Stephen R. Covey</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$5.33</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>*New York Times bestseller—over 40 million copies sold*
+         *The #1 Most Influential Business Book of the Twentieth Century*
+         One of the most inspiring and impactful books ever written, The 7 Habits of Highly Effective People has captivated readers for nearly three decades...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51bhhK6yobL._SX331_BO1,204,203,200_.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Think and Grow Rich </div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Napoleon Hill</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$3.66</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>I thought Think and Grow Rich! was a classic and could never be improved. I was wrong. I am sure Dr. Hill would be greatly pleased to see how his work has been honored and enhanced by this outstanding new edition." -- Wally Amos, author and founder of Famous Amos Chocolate Chip Cookies</div>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 60px;"><a href>1</a>  <a href>2</a>  <a href>3</a>  <a href>4</a>  <a href>5</a>  <a href>6</a>  <a href>7</a>  <a href>8</a>  <a href=""> ... </a>  <a href>62</a>  </div>
+ 
+</div>
+  </div>
+        <div class="fon2">
+            
+          <div class="content2for1">
+          </div>
+    </div>
+    
+    <div class="footer">
+      <div class="contact"> Contacts</div>
+      <div class="contact">About us</div>
+      <div class="contact">Events</div>
+      <div class="num"><
+          <div class="num1">8747XXXXXXX</div>
+          <div class="num2">8707XXXXXXX</div>
+          <div class="num3">8708XXXXXXX</div>
+        </div>
+      <div class="last">@2020-2021 Booktown Kazakhstan</div>
+    </div>
+  </div>
+    </body>
+</html>

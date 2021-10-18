@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Help</title>
+
+	<link rel="stylesheet" type="text/css" href="mid.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+<script>
+		function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+	</script>
+
+</head>
+<body>
+	<div class="main">
+		<div class="bar">
+			<div class="left">
+				<a class="h" href="Midterm.html"><div class="home">Home</div></a>
+      <a class="h" href="catalog.html"><div class="home">Catalog</div></a>
+      <a class="h" href=""><div class="home">Help</div></a>
+		    </div>
+			<div class="text-info" id="book">
+				<img src="https://image.flaticon.com/icons/png/512/90/90411.png" width="45px" height="45px">
+			    Booktown
+			</div>
+			<div class="right">
+				
+				<a href="" name="corz"><img id="corz" src="https://i.pinimg.com/originals/4f/d9/1c/4fd91cd936769ab12c551a00de654228.jpg"></a>
+			    <div class="dropdown">
+                        <img  id="nick" onclick="myFunction()" class="dropbtn" src="https://interlink.biz/wp-content/themes/interlink/img/avatar_1.png">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Register</a>
+                            <a href="#">Log in</a>
+                           
+                        </div>
+                </div>
+			</div>
+		</div>
+
+		<div class="fon1">
+			<div class="text">
+                <div class="input-group mb-3">
+                    <input type="text" class="form" placeholder="Search any books" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                   <!-- <div class="input-group-append">-->
+                        <button class="btn btn-info" id="bas">Search</button>
+                   <!-- </div> -->
+                </div>
+		    </div>
+            <div class="quote">“A reader lives a thousand lives before he dies. The man who never reads lives only one.”<div> — George R. R. Martin</div></div>
+            <div class="icons">
+            	<div>
+                      <a class="inst" href="https://www.instagram.com/?hl=ru"><img src="https://cdn.icon-icons.com/icons2/2201/PNG/512/instagram_ig_logo_icon_134013.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="fac" href="https://ru-ru.facebook.com/"><img src="https://sitkar.net/wp-content/uploads/2020/04/pngtree-facebook-icon-facebook-logo-fb_3560489.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="g" href="https://www.google.com/intl/ru/gmail/about/"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" class="insta"></a>
+                </div>
+                    </div>
+<div class="content1">
+  <div class="allhelp">
+  
+    <h1 style="color:#2270D1">PAYMENT</h1>
+    <h4 style="color:#E5303D; font-family: Arial;font-style: italic;">Is it possible to pay in cash?</h4>
+    
+    <div class="help"><div class="img_help">
+      <img src="https://bestseller.kz/images/cash.png" >
+    </div>
+      <div style="font-size: 15px; font-style: oblique;">
+        <p>If you are in these cities and receive your parcels by courier, you can pay the courier in cash: Aktau, Aktobe, Almaty, Astana, Atyrau, Karaganda, Kokshetau, Kostanay, Kyzylorda, Pavlodar, Petropavlovsk, Semey, Taldykorgan, Taraz, Uralsk, Ust-Kamenogorsk, Shymkent, Ekibastuz;No additional commissions are paid in cash.</p>
+       <p>- upon receipt of parcels through MyPost posts;</p>
+       <p>- upon receipt of the order at the point of issue.</p>
+      <p>You can pay for the parcel by installment payment upon receipt of the parcel by postal delivery. Payment is made to the post office when receiving the parcel. The commission is 4% of the amount of payment, the minimum commission is 300 tenge.</p>
+    </div>
+  </div>
+  
+  <h4 style="color:#E5303D;font-family: Arial;font-style: italic;">Is it possible to pay by bank card?</h4>
+    <div class="help">
+      <div class="img_help">
+      <img src="https://bestseller.kz/images/card.png">
+    </div>
+      <div style="font-size: 15px; font-style: oblique; margin-top: 50px;"><p>Yes, cards of almost any bank, Visa and Master Card systems are accepted for payment, for which financial transactions on the Internet are allowed by your issuing bank. Also, CirrusMaestro cards issued only by Kazkommertsbank are accepted.</p></div>
+    </div>
+
+
+    <h1 style="color:#2270D1;margin-top:80px;">DELIVERY</h1>
+    <h4 style="color:#E5303D; font-family: Arial;font-style: italic;">Express delivery</h4>
+    <div class="help">
+      <div class="img_help">
+      <img src="https://bestseller.kz/images/courier.png">
+    </div>
+      <div style="font-size: 15px; font-style: oblique;">
+        <p>Yes, of course.Choosing this delivery method allows you to place an order and receive it without leaving your home or office. Courier delivery cost depending on the order amount:</p>
+      <p>- over 10,000 tenge delivery is FREE.</p>
+      <p>- when ordering up to 10,000 tenge, the delivery cost is 850 tenge;</p>
+    </div>
+  </div>
+
+    <h4 style="color:#E5303D; font-family: Arial;font-style: italic;">Post terminals MyPost
+    </h4>
+    <div class="help">
+       <div class="img_help">
+      <img src="https://bestseller.kz/upload/medialibrary/8f3/8f3690f80564a05aad6a3c882baa285a.png">
+    </div>
+      <div style="font-size: 15px; font-style: oblique; margin-left: 60px; margin-top: 20px;">
+        <p>Post terminals MyPost is a network of postal terminals for issuing parcels. A large number of such terminals in regional centers and large cities of Kazakhstan allows the buyer to choose the most convenient place to receive his order. In addition, when delivering an order through MyPost terminals, you can pay for the parcel in cash upon receipt. This delivery method is possible for the cities: Aktau, Aktobe, Almaty, Astana, Atyrau, Karaganda, Kokshetau, Kostanay, Kyzylorda, Pavlodar, Petropavlovsk, Semey, Taldykorgan, Taraz, Uralsk, Ust-Kamenogorsk, Shymkent, Ekibastuz.</p></div>
+    </div>
+    
+    <h4 style="color:#E5303D; font-family: Arial;font-style: italic; margin-top: 30px;">Delivery by Post</h4>
+    <div class="help">
+       <div class="img_help">
+      <img src="https://bestseller.kz/images/post.png">
+    </div>
+      <div style="font-size: 15px; font-style: oblique;"><p>Postal delivery allows you to make and receive orders in any settlement of Kazakhstan, where there is a post office. The order will be delivered to the post office specified when placing the order. The cost and delivery time depending on the weight and type of transportation are shown in the table.</p>
+      <p>The commission for postal services is 2% of the transfer amount, at least 300 tenge.
+      </p>
+      <p>When ordering goods for an amount over 10,000 tenge, postal delivery is carried out FREE OF CHARGE</p>
+    </div>
+    </div>
+  </div>
+  </div>
+<div class="fon2">
+    <div class="content2">
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="contact"> Contacts</div>
+      <div class="contact">About us</div>
+      <div class="contact">Events</div>
+      <div class="num"><
+          <div class="num1">8747XXXXXXX</div>
+          <div class="num2">8707XXXXXXX</div>
+          <div class="num3">8708XXXXXXX</div>
+        </div>
+      <div class="last">@2020-2021 Booktown Kazakhstan</div>
+    </div>
+  </div>
+    </body>
+</html>

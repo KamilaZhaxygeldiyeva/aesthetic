@@ -1,0 +1,200 @@
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="mid.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+<script>
+    function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+
+</head>
+<body>
+  <div class="main">
+    <div class="bar">
+      <div class="left">
+        <a class="h" href="Midterm.html"><div class="home">Home</div></a>
+      <a class="h" href="catalog.html"><div class="home">Catalog</div></a>
+      <a class="h" href="help.html"><div class="home">Help</div></a>
+        </div>
+      <div class="text-info" id="book">
+        <img src="https://image.flaticon.com/icons/png/512/90/90411.png" width="45px" height="45px">
+          Booktown
+      </div>
+      <div class="right">
+        
+        <a href="" name="corz"><img id="corz" src="https://i.pinimg.com/originals/4f/d9/1c/4fd91cd936769ab12c551a00de654228.jpg"></a>
+          <div class="dropdown">
+                        <img  id="nick" onclick="myFunction()" class="dropbtn" src="https://interlink.biz/wp-content/themes/interlink/img/avatar_1.png">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Register</a>
+                            <a href="#">Log in</a>
+                           
+                        </div>
+                </div>
+      </div>
+    </div>
+
+    <div class="fon1">
+      <div class="text">
+                <div class="input-group mb-3">
+                    <input type="text" class="form" placeholder="Search any books" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                   <!-- <div class="input-group-append">-->
+                        <button class="btn btn-info" id="bas">Search</button>
+                   <!-- </div> -->
+                </div>
+        </div>
+            <div class="quote">“A reader lives a thousand lives before he dies. The man who never reads lives only one.”<div> — George R. R. Martin</div></div>
+            <div class="icons">
+              <div>
+                      <a class="inst" href="https://www.instagram.com/?hl=ru"><img src="https://cdn.icon-icons.com/icons2/2201/PNG/512/instagram_ig_logo_icon_134013.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="fac" href="https://ru-ru.facebook.com/"><img src="https://sitkar.net/wp-content/uploads/2020/04/pngtree-facebook-icon-facebook-logo-fb_3560489.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="g" href="https://www.google.com/intl/ru/gmail/about/"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" class="insta"></a>
+                </div>
+                    </div>
+<div class="content1">
+  <div class="main1">
+    <div class="img">
+    <img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0374528373&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whytoread_00-20" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Brothers Karamazov</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Fyodor Dostoevsky</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$2.65g</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>This is both a great philosophical book and a great work of fiction.The story follows the lives of old man Karamazov, a filthy penny-pinching lech and his three sons. Each son represents a different side to the Russian character: Dimitri the spoiled lout, Ivan the tortured intellect, and Alyosha the spiritual searcher...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51g3YbTBW6L._SX327_BO1,204,203,200_.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Anna Karenina </div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Leo Tolstoy</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$3.99</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>At its simplest, Anna Karenina is a love story. It is a portrait of a beautiful and intelligent woman whose passionate love for a handsome officer sweeps aside all other ties - to her marriage and to the network of relationships and moral values that bind the society around her. The love affair of Anna and Vronsky is played out...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383718290l/13079982.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Fahrenheit 451</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Ray Bradbury</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$4.20</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.”...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://images.penguinrandomhouse.com/cover/9780593198025" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Little Women</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Louisa May Alcott</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$3.25</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Generations of readers young and old, male and female, have fallen in love with the March sisters of Louisa May Alcott’s most popular and enduring novel, Little Women. Here are talented tomboy and author-to-be Jo, tragically frail Beth, beautiful Meg, and romantic, spoiled Amy, united in their devotion to each other...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://media.bonnierforlagen.se/bokbilder/b/9789174292343.jpg?timestamp=20160307042105" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Jane Eyre</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Charlotte Brontë</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$2.99</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Orphaned as a child, Jane has felt an outcast her whole young life. Her courage is tested once again when she arrives at Thornfield Hall, where she has been hired by the brooding, proud Edward Rochester to care for his ward Adèle. Jane finds herself drawn to his troubled yet kind spirit. She falls in love...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://www.slorep.org/wp-content/uploads/2018/09/PrideAndPrejudice-WebsitePoster.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Pride and Prejudice</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Jane Austen</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$6.75</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Austen's most popular novel, the unforgettable story of Elizabeth Bennet and Mr. Darcy Few have failed to be charmed by the witty and independent spirit of Elizabeth Bennet in Austen’s beloved classic Pride and Prejudice. When Elizabeth Bennet first meets eligible bachelor Fitzwilliam Darcy, she thinks him arrogant and conceited...</div>
+    </div>
+  </div>
+   <div style="text-align: center; margin-top: 60px;"><a href>1</a>  <a href>2</a>  <a href>3</a>  <a href>4</a>  <a href>5</a>  <a href>6</a>  <a href>7</a>  <a href>8</a>  <a href=""> ... </a>  <a href>35</a>  </div>
+</div>
+  </div>
+        <div class="fon2">
+            
+          <div class="content2for1">
+          </div>
+    </div>
+    
+    <div class="footer">
+      <div class="contact"> Contacts</div>
+      <div class="contact">About us</div>
+      <div class="contact">Events</div>
+      <div class="num"><
+          <div class="num1">8747XXXXXXX</div>
+          <div class="num2">8707XXXXXXX</div>
+          <div class="num3">8708XXXXXXX</div>
+        </div>
+      <div class="last">@2020-2021 Booktown Kazakhstan</div>
+    </div>
+  </div>
+    </body>
+</html>

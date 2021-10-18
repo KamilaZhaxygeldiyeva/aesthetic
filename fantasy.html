@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="mid.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+<script>
+    function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+
+</head>
+<body>
+  <div class="main">
+    <div class="bar">
+      <div class="left">
+       <a class="h" href="Midterm.html"><div class="home">Home</div></a>
+      <a class="h" href="catalog.html"><div class="home">Catalog</div></a>
+      <a class="h" href="help.html"><div class="home">Help</div></a>
+        </div>
+      <div class="text-info" id="book">
+        <img src="https://image.flaticon.com/icons/png/512/90/90411.png" width="45px" height="45px">
+          Booktown
+      </div>
+      <div class="right">
+        
+        <a href="" name="corz"><img id="corz" src="https://i.pinimg.com/originals/4f/d9/1c/4fd91cd936769ab12c551a00de654228.jpg"></a>
+          <div class="dropdown">
+                        <img  id="nick" onclick="myFunction()" class="dropbtn" src="https://interlink.biz/wp-content/themes/interlink/img/avatar_1.png">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Register</a>
+                            <a href="#">Log in</a>
+                           
+                        </div>
+                </div>
+      </div>
+    </div>
+
+    <div class="fon1">
+      <div class="text">
+                <div class="input-group mb-3">
+                    <input type="text" class="form" placeholder="Search any books" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                   <!-- <div class="input-group-append">-->
+                        <button class="btn btn-info" id="bas">Search</button>
+                   <!-- </div> -->
+                </div>
+        </div>
+            <div class="quote">“A reader lives a thousand lives before he dies. The man who never reads lives only one.”<div> — George R. R. Martin</div></div>
+            <div class="icons">
+<div>
+                      <a class="inst" href="https://www.instagram.com/?hl=ru"><img src="https://cdn.icon-icons.com/icons2/2201/PNG/512/instagram_ig_logo_icon_134013.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="fac" href="https://ru-ru.facebook.com/"><img src="https://sitkar.net/wp-content/uploads/2020/04/pngtree-facebook-icon-facebook-logo-fb_3560489.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="g" href="https://www.google.com/intl/ru/gmail/about/"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" class="insta"></a>
+                </div>
+                    </div>
+<div class="content1">
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/51MDljSTrTL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Alice’s Adventures in Wonderland</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Lewis Carroll</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">4.99$</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Even if you’re not a math geek, you’re probably familiar with the algebraist Charles Dodgson — you just know him his much more famous alter-ego, Lewis Carroll. Unlike Dodgson, Carroll wrote stories that defied logic, twisting it into dreamlike...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/51D+-f5UcDL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">A Game of Thrones </div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">George R.R. Martin</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$5.63</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>While we wait for G.R.R. Martin to finish up his long-running series’ sixth installment, it’s worth revisiting the book that made his name — and gave its name to the show that brought TV fantasy into the mainstream. If His Dark Materials is the anti-Narnia...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487944398l/30531880.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">American Gods</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Neil Gaiman</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$7.99</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>A decade after Good Omens, Neil Gaiman returned to the world of religious fantasy with this magnificent solo venture. American Gods blends old legends with a modern noir sensibility — it’s peopled with deities and convicts, and the distinctions between them aren’t always clear...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/617qBwl-A0L.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Fifth Season</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">N.K. Jemisin</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$7.65</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>The Fifth Seasonis perhaps N.K. Jemisin's most fully realized work, combining her trademark psychological complexity with an ultra-immersive world and a magic system of startling originality. It's set in a Pangaea-like supercontinent called the Stillness — an ironic name, since the land is ravaged periodically by earthquakes. Because...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/516YLKoyukL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Golden Compass</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Philip Pullman</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$8.33</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>This stunning YA fantasy opens the His Dark Materials trilogy, which can only be described as the anti-Narnia: a literary monument to secular humanism. This first installment centers on Lyra Belacqua, an orphan raised by a committee of graybeards at Oxford...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://www.fantasybookreview.co.uk/images/the-stand-stephen-king.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Stand by Stephen King</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Stephen King</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$8.33</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>If you call yourself any kind of reader of speculative fiction and can appreciate a truly rich and complex book, The Stand is a must read. Even if you’ve never read Stephen King before, even if neither horror nor post-apocalyptic are your usual genre choice, you won’t be disappointed. The writing is excellent, the imagery horrifying and the atmosphere hypnotic...</div>
+    </div>
+  </div>
+   <div style="text-align: center; margin-top: 60px;"><a href>1</a>  <a href>2</a>  <a href>3</a>  <a href>4</a>  <a href>5</a>  <a href>6</a>  <a href>7</a>  <a href>8</a>  <a href=""> ... </a>  <a href>33</a>  </div>
+ 
+</div>
+  </div>
+        <div class="fon2">
+            
+          <div class="content2for1">
+          </div>
+    </div>
+    
+    <div class="footer">
+      <div class="contact"> Contacts</div>
+      <div class="contact">About us</div>
+      <div class="contact">Events</div>
+      <div class="num"><
+          <div class="num1">8747XXXXXXX</div>
+          <div class="num2">8707XXXXXXX</div>
+          <div class="num3">8708XXXXXXX</div>
+        </div>
+      <div class="last">@2020-2021 Booktown Kazakhstan</div>
+    </div>
+  </div>
+    </body>
+</html>

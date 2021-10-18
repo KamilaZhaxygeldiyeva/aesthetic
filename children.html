@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="mid.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+<script>
+		function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+	</script>
+
+</head>
+<body>
+	<div class="main">
+		<div class="bar">
+			<div class="left">
+				<a class="h" href="Midterm.html"><div class="home">Home</div></a>
+      <a class="h" href="catalog.html"><div class="home">Catalog</div></a>
+      <a class="h" href="help.html"><div class="home">Help</div></a>
+		    </div>
+			<div class="text-info" id="book">
+				<img src="https://image.flaticon.com/icons/png/512/90/90411.png" width="45px" height="45px">
+			    Booktown
+			</div>
+			<div class="right">
+				
+				<a href="" name="corz"><img id="corz" src="https://i.pinimg.com/originals/4f/d9/1c/4fd91cd936769ab12c551a00de654228.jpg"></a>
+			    <div class="dropdown">
+                        <img  id="nick" onclick="myFunction()" class="dropbtn" src="https://interlink.biz/wp-content/themes/interlink/img/avatar_1.png">
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Register</a>
+                            <a href="#">Log in</a>
+                           
+                        </div>
+                </div>
+			</div>
+		</div>
+
+		<div class="fon1">
+			<div class="text">
+                <div class="input-group mb-3">
+                    <input type="text" class="form" placeholder="Search any books" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                   <!-- <div class="input-group-append">-->
+                        <button class="btn btn-info" id="bas">Search</button>
+                   <!-- </div> -->
+                </div>
+		    </div>
+            <div class="quote">“A reader lives a thousand lives before he dies. The man who never reads lives only one.”<div> — George R. R. Martin</div></div>
+            <div class="icons">
+            	<div>
+                      <a class="inst" href="https://www.instagram.com/?hl=ru"><img src="https://cdn.icon-icons.com/icons2/2201/PNG/512/instagram_ig_logo_icon_134013.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="fac" href="https://ru-ru.facebook.com/"><img src="https://sitkar.net/wp-content/uploads/2020/04/pngtree-facebook-icon-facebook-logo-fb_3560489.png" class="insta"></a>
+                </div>
+                <div>
+                      <a class="g" href="https://www.google.com/intl/ru/gmail/about/"><img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png" class="insta"></a>
+                </div>
+                    </div>
+<div class="content1">
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/51X09FpauIL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Anne of Green Gables</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">L.M. Montgomery</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$3.99</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>One of the most iconic redhead heroines of all time (right up there with Pippi Longstocking) begins her story in this brilliant novel. Eleven-year-old Anne Shirley is adopted by Matthew and Marilla Cuthbert and is determined to prove herself a worthy daughter and citizen of Avonlea. Anne’s distinct personality...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/51vX692UCyL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Matilda</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Roald Dahl and Quentin Blake</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$3.45</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>In children’s literature, precocious kids are rarely appreciated by their parents. Nowhere is this truer than in Roald Dahl’s landmark novel about a genius girl who uses her brilliance (and other singular talents) to get back at them. From the vain and negligent Mr. and Mrs...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/51W8IWdCSKL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Charlie and the Chocolate Factory</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Roald Dahl and Quentin Blake</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$7.99</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Young Charlie Bucket has always heard stories of Willy Wonka’s mysterious chocolate factory, which has been closed to the public for years. When he miraculously wins the chance to visit the factory, along with four other kids, Charlie has no idea what’s in store for him...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/51guh9sPKhL.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">A Bear Called Paddington</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Michael Bond</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$5.12</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>The first installment of the much-loved Paddington books, A Bear Called Paddington traces the origins of the eponymous character. Left on a London train platform with a note that reads “Please look after this bear,” Paddington is discovered and adopted by the well-to-do Brown family...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://m.media-amazon.com/images/I/41lnLrvBnML.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">Harry Potter and the Sorcerer’s Stone</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">J.K. Rowling</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$14.5</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>Ah, where the magic all began. Allegedly written in a coffee shop in Edinburgh, J.K. Rowling’s debut novelwould spark off one of the most popular series of all time — one that transcends age, gender, and culture. You probably don’t need a synopsis, but here’s one just in case...</div>
+    </div>
+  </div>
+  <div class="main1">
+    <div class="img">
+    <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/064de84f8a75064b4a9a1f62663b9d432c1d8defdfe80b8d9870b60d0d40b13d._RI_V_TTW_.jpg" width="150px" height="180px">
+    </div>
+    <div class="blockbook">
+      <div style="color:#2270D1; font-size: 20px;font-family: Arial;">The Little Prince</div>
+      <div style="color:#2270D1; font-size: 15px;font-family: Arial;">Antoine de Saint-Exupéry</div>
+    <div class="price">
+      <h5>Price: </h5>
+      <h1 style="color: #CE2323;font-size: 20px;">$6.99</h1>
+      <button class="btn btn-warning">Add to library  +  </button>
+    </div>
+    <hr>
+    <div>The whimsical story with a fairy tale touch has sold over 80 million copies in 230 languages. This exciting graphic adaptation features beautiful, new artwork by Joann Sfar. Hand-chosen by Saint-Exupéry's French publishers for his literary style and sensitivity to the original, Sfar has endeavored to recreate this beloved story, both honoring the original and stretching it to new heights...</div>
+    </div>
+  </div>
+    <div style="text-align: center; margin-top: 50px;"><a href>1</a>  <a href>2</a>  <a href>3</a>  <a href>4</a>  <a href>5</a>  <a href>6</a>  <a href>7</a>  <a href>8</a>  <a href=""> ... </a>  <a href>25</a>  </div>
+ 
+</div>
+  </div>
+        <div class="fon2">
+            
+          <div class="content2for1">
+
+          </div>
+    </div>
+    
+    <div class="footer">
+      <div class="contact"> Contacts</div>
+      <div class="contact">About us</div>
+      <div class="contact">Events</div>
+      <div class="num"><
+          <div class="num1">8747XXXXXXX</div>
+          <div class="num2">8707XXXXXXX</div>
+          <div class="num3">8708XXXXXXX</div>
+        </div>
+      <div class="last">@2020-2021 Booktown Kazakhstan</div>
+    </div>
+  </div>
+    </body>
+</html>
